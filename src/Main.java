@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
 //      change this path to folder which contain duplicate images
-        String directoryPath = "/Users/chamaxx9z/Documents/Invoice/sample";
+        String directoryPath = "/sample";
         File directory = new File(directoryPath);
         if (directory.isDirectory()) {
             File[] files = directory.listFiles();
